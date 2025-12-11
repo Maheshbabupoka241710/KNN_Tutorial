@@ -1,6 +1,6 @@
 # KNN Wine Quality Classification – Tutorial
 
-A student-friendly machine learning tutorial using the K-Nearest Neighbours (KNN) algorithm to classify wine quality (low / medium / high) from the WineQT dataset.
+A machine learning tutorial using the K-Nearest Neighbours (KNN) algorithm to classify wine quality (low / medium / high) from the WineQT dataset.
 
 ---
 
@@ -8,8 +8,6 @@ A student-friendly machine learning tutorial using the K-Nearest Neighbours (KNN
 
 This project demonstrates a complete end-to-end machine learning pipeline:
 understanding how KNN works → exploring the dataset → preprocessing data → building models → tuning hyperparameters → visualising results → comparing with Logistic Regression → summarising findings.
-
-The goal is to present a clear, easy-to-understand tutorial suitable for students and beginners.
 
 ---
 
