@@ -55,24 +55,27 @@ Concludes that KNN is simple and interpretable, Logistic Regression is slightly 
 
 ## Project Structure
 
+```
 KNN-Wine-Quality-Project/
 │
-├── KNN_Tutorial.ipynb # Main tutorial notebook (code + explanations)
-├── WineQT.csv # Wine quality dataset (from Kaggle)
-├── README.md # This documentation
-├── requirements.txt # Python dependencies
+├── KNN_Tutorial.ipynb          # Main tutorial notebook (code + explanations)
+├── WineQT.csv                  # Wine quality dataset (from Kaggle)
+├── README.md                   # This documentation
+├── requirements.txt            # Python dependencies
 │
-└── images/ # (Optional) Saved plots for the report
-├── knn_workflow.png
-├── class_distribution.png
-├── correlation_heatmap.png
-├── boxplot_alcohol.png
-├── boxplot_residual_sugar.png
-├── boxplot_volatile_acidity.png
-├── pca_projection.png
-├── f1_vs_k_curve.png
-├── confusion_knn.png
-└── confusion_logreg.png
+└── images/                     # (Optional) Saved plots for the report
+    ├── knn_workflow.png
+    ├── class_distribution.png
+    ├── correlation_heatmap.png
+    ├── boxplot_alcohol.png
+    ├── boxplot_residual_sugar.png
+    ├── boxplot_volatile_acidity.png
+    ├── pca_projection.png
+    ├── f1_vs_k_curve.png
+    ├── confusion_knn.png
+    └── confusion_logreg.png
+```
+
 
 
 ---
