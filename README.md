@@ -51,14 +51,7 @@ Wrap up by stating that KNN is simple and interpretable, Logistic Regression is 
 
 ---
 
-## ▶️ How to Run
-
-1. Clone the repo:
-```bash
-git clone https://github.com/your-username/KNN-Wine-Quality-Project.git
-cd KNN-Wine-Quality-Project
-
-## Project Structure
+##  Project Structure
 
 KNN-Wine-Quality-Project/
 │
