@@ -1,75 +1,87 @@
-#  KNN Wine Quality Classification – Tutorial
+# KNN Wine Quality Classification – Tutorial
 
 A student-friendly machine learning tutorial using the K-Nearest Neighbours (KNN) algorithm to classify wine quality (low / medium / high) from the WineQT dataset.
 
 ---
 
-##  Project Overview
+## Project Overview
 
-This project walks through an **end-to-end ML pipeline**:
-from understanding KNN → exploring the data → preprocessing → modelling → tuning → visualising → comparing with Logistic Regression → reflecting on results.
+This project demonstrates a complete end-to-end machine learning pipeline:
+understanding how KNN works → exploring the dataset → preprocessing data → building models → tuning hyperparameters → visualising results → comparing with Logistic Regression → summarising findings.
 
----
-
-##  Tutorial Flow (Stage-by-Stage – Crisp Summary)
-
-### 1️⃣ Introduction  
-Explain the intuition behind KNN: “look at who is closest and follow the majority”, with a simple diagram showing how neighbours decide the class.
-
-### 2️⃣ Understanding KNN  
-Break down how KNN predicts a label using k nearest neighbours, majority voting, and distance metrics (Euclidean, Manhattan, Minkowski).
-
-### 3️⃣ Visual Overview  
-Describe how different plots (class distribution, heatmap, boxplots, PCA, confusion matrices) help us see how KNN interacts with the wine data.
-
-### 4️⃣ Exploratory Data Analysis (EDA)  
-Check class balance, feature relationships, and key trends using plots like class distribution, correlation heatmap, and boxplots.
-
-### 5️⃣ Data Preprocessing  
-Clean the data, create quality labels (low/medium/high), scale features using StandardScaler, and perform a stratified train–test split.
-
-### 6️⃣ Baseline Models  
-Build a baseline KNN model and a baseline Logistic Regression model to understand initial performance and set a reference.
-
-### 7️⃣ Hyperparameter Tuning  
-Use GridSearchCV to search over k values, distance metrics, and weight types, optimising on F1-macro to handle class imbalance.
-
-### 8️⃣ Model Visualisations  
-Create PCA plots, F1 vs k curves, and confusion matrices for KNN and Logistic Regression to visually inspect performance and errors.
-
-### 9️⃣ Model Comparison  
-Compare KNN and Logistic Regression, explaining why Logistic Regression slightly outperforms KNN and what this says about the data (near-linear boundaries).
-
-### 🔟 Discussion  
-Summarise key insights: importance of scaling, influence of alcohol and volatile acidity, impact of class imbalance, and why metrics like F1-macro matter.
-
-### 1️⃣1️⃣ Limitations & Future Work  
-Note dataset size and imbalance, KNN’s speed on large data, and suggest improvements like SMOTE, advanced models, weighted KNN, and UMAP.
-
-### 1️⃣2️⃣ Conclusion  
-Wrap up by stating that KNN is simple and interpretable, Logistic Regression is slightly stronger here, and the pipeline follows good ML practice from start to finish.
+The goal is to present a clear, easy-to-understand tutorial suitable for students and beginners.
 
 ---
 
-##  Project Structure
+## Tutorial Flow (Stage-by-Stage Summary)
+
+### 1. Introduction  
+Explains the intuition behind KNN: “look at who is closest and follow the majority”, supported by a simple classification workflow diagram.
+
+### 2. Understanding KNN  
+Describes how KNN predicts labels using k nearest neighbours, majority voting, and distance metrics such as Euclidean, Manhattan, and Minkowski.
+
+### 3. Visual Overview  
+Introduces all visualisations used in the tutorial, including class distribution, correlation heatmap, boxplots, PCA projection, F1 vs k curve, and confusion matrices.
+
+### 4. Exploratory Data Analysis (EDA)  
+Examines class balance, correlations, and feature patterns using multiple plots to understand key characteristics of the wine data.
+
+### 5. Data Preprocessing  
+Cleans the dataset, converts numeric quality scores into class labels (low, medium, high), scales features using StandardScaler, and performs a stratified train–test split.
+
+### 6. Baseline Models  
+Builds initial baseline models using KNN and Logistic Regression to establish reference performance levels.
+
+### 7. Hyperparameter Tuning  
+Uses GridSearchCV to optimise over k values, distance metrics, and weighting strategies, evaluating each model using F1-macro due to class imbalance.
+
+### 8. Model Visualisations  
+Generates PCA plots, tuning curves, and confusion matrices to visually analyse how each model performs and where errors occur.
+
+### 9. Model Comparison  
+Compares KNN and Logistic Regression, explaining why Logistic Regression performs slightly better and how this reflects near-linear class boundaries in the dataset.
+
+### 10. Discussion  
+Summarises key insights: importance of scaling, influence of specific features (alcohol and volatile acidity), handling class imbalance, and reliability of F1-macro.
+
+### 11. Limitations and Future Work  
+Highlights dataset size, imbalance, and KNN’s computational cost; proposes improvements such as SMOTE, weighted KNN, advanced models, and dimensionality reduction.
+
+### 12. Conclusion  
+Concludes that KNN is simple and interpretable, Logistic Regression is slightly more suitable for this dataset, and the overall pipeline demonstrates strong machine learning practice.
+
+---
+
+## Project Structure
 
 KNN-Wine-Quality-Project/
 │
-├── KNN_Tutorial.ipynb        # Main tutorial notebook (code + explanations)
-├── WineQT.csv                # Wine quality dataset (from Kaggle)
-├── README.md                 # This documentation
-├── requirements.txt          # Python dependencies
+├── KNN_Tutorial.ipynb # Main tutorial notebook (code + explanations)
+├── WineQT.csv # Wine quality dataset (from Kaggle)
+├── README.md # This documentation
+├── requirements.txt # Python dependencies
 │
-└── images/                   # (Optional) Saved plots for the report
-    ├── knn_workflow.png
-    ├── class_distribution.png
-    ├── correlation_heatmap.png
-    ├── boxplot_alcohol.png
-    ├── boxplot_residual_sugar.png
-    ├── boxplot_volatile_acidity.png
-    ├── pca_projection.png
-    ├── f1_vs_k_curve.png
-    ├── confusion_knn.png
-    └── confusion_logreg.png
+└── images/ # (Optional) Saved plots for the report
+├── knn_workflow.png
+├── class_distribution.png
+├── correlation_heatmap.png
+├── boxplot_alcohol.png
+├── boxplot_residual_sugar.png
+├── boxplot_volatile_acidity.png
+├── pca_projection.png
+├── f1_vs_k_curve.png
+├── confusion_knn.png
+└── confusion_logreg.png
 
 
+---
+
+If you'd like, I can also generate:
+
+- A clean **requirements.txt**  
+- A **license file**  
+- A **short GitHub project description** (appears on top of the repo)  
+- A **badge section** (Python version, framework versions, etc.)
+
+Just tell me what you want next.
