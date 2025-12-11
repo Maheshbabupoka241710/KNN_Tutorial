@@ -75,16 +75,3 @@ KNN-Wine-Quality-Project/
     ├── confusion_knn.png
     └── confusion_logreg.png
 ```
-
-
-
----
-
-If you'd like, I can also generate:
-
-- A clean **requirements.txt**  
-- A **license file**  
-- A **short GitHub project description** (appears on top of the repo)  
-- A **badge section** (Python version, framework versions, etc.)
-
-Just tell me what you want next.
